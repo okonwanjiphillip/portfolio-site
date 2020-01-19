@@ -39,9 +39,9 @@ ul li {
     float: left;
 }
 
-.clr {
-    clear: both;
-}
+/* .clr-left {
+    clear: right;
+} */
 
 /* Header */
 .header {
@@ -95,17 +95,18 @@ header .profile-content .social-list .icon {
 /* Section */
 .box{
     background: #f4f4f4;
-    padding: 20px;
+    padding: 15px;
     margin-bottom: 20px;
 
 }
 
-#about-me{
-    float: left;
-    width: 68%;
+.right {
+    float: right;
+    max-width: 31%;
 }
 
-#next{
-    float: right;
-    width: 28%;
+.left {
+    float: left;
+    max-width: 67%;
 }
+
